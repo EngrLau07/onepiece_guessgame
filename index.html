@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Guessing the Treasure Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="title-container">
+            <img src="OnePieceTitle.png" alt="One Piece Title" id="title-image">
+            <img src="ship.gif" alt="Ship" id="ship-image">
+        </div>
+        <div id="game-container">
+            <div id="game-board">
+                <img class="game-image" src="default.jpg" id="box1">
+                <img class="game-image" src="default.jpg" id="box2">
+                <img class="game-image" src="default.jpg" id="box3">
+                <img class="game-image" src="default.jpg" id="box4">
+                <img class="game-image" src="default.jpg" id="box5">
+                <img class="game-image" src="default.jpg" id="box6">
+                <img class="game-image" src="default.jpg" id="box7">
+                <img class="game-image" src="default.jpg" id="box8">
+                <img class="game-image" src="default.jpg" id="box9">
+            </div>
+            <div id="result-container">
+                <div id="result-box">
+                    <img id="result-image" src="default.jpg">
+                </div>
+            </div>
+        </div>
+        
+        <p id="message"></p>
+
+        <audio id="correct-sound" src="correct.mp3"></audio>
+        <audio id="wrong-sound" src="wrong.mp3"></audio>
+
+        <audio id="bg-music" autoplay loop muted>
+            <source src="bgMusic.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
